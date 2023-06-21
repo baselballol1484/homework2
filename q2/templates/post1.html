@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+	<title>Post</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="{{ url_for('static', filename='logo.png') }}" alt="Flask App" class="img-fluid">
+			<h1>Post</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="{{ url_for('index') }}">Home</a></li>
+				<li><a href="{{ url_for('about') }}">About</a></li>
+				<li><a href="{{ url_for('contact') }}">Contact</a></li>
+			</ul>
+		</nav>
+
+		<main>
+
+			<p>Al-Ghab Plain is a flat, fertile plain located in Hama Governorate in the central region of Syria, between the Lattakia Mountains to the west, Jabal Al-Zawiya to the east, Jisr Al-Shughur to the north, and Masyaf to the south. The Orontes River passes through it. A section of Al-Ghab Plain was a swamp that has been drained. -15 km.
+It was mentioned in many historical sources and historical battles took place next to it, especially before Christ, and there are many historical castles on its outskirts, the most important of which are Apamea Castle and Simon Castle.
+
+In the eighties of the last century, it was connected to the Syrian coast by a wide road through Beit Yashout, and this had a great economic impact on the Al-Ghab Plain region, as the towns and villages of the Jableh region became a market for the sale of agricultural products to the Al-Ghab Plain. This road became an essential passage for the high-quality municipal smoke that comes From Beit Yashout and its villages, and it is exported to all regions.
+In 2010, the population of Al-Ghab Plain was about 325 thousand people. It is inhabited by many ancient Arab clans, such as the Damalkha, Al-Naim, Bani Khuza’a, Al-Weis, Al-Jis, Al-Frigawiya, Bani Khalid and Bani Said. Most of the population works in the field of agriculture.</p>
+		</main>
+	</div>
+</body>
+</html>
